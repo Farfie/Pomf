@@ -1,5 +1,5 @@
 # Pomf
-This release is confirmed to work on Nginx, Php 7.0.4, and MariaDB. Should also work with Apache 2.4 and any other PDO-compatible database.
+This release is confirmed to work on Nginx 1.9.14, Php 7.0.5, and MariaDB 10.1.13. Should also work with Apache 2.4 and any other PDO-compatible database.
 
 # Install
 For the purposes of this guide, we won't cover setting up Nginx, PHP, MariaDB,
@@ -35,11 +35,3 @@ however, client-side configuration for max size, the `data-max-size` attribute
 on the file input in `pages/upload_form.swig`.
 
 Make sure to disable PHP from being executed on the file download domain/directory (e.g a.site.com), otherwise an attacker can upload a malicious .php file and execute it on your server.
-
-## Todo
-
-* Clean up Moe code, a lot..
-* API keys?
-
-# Contact
-I can be contacted via lfp1kik@gmail.com
