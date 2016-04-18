@@ -163,14 +163,8 @@ a.donate-btn:hover {
 	margin-left: -20px;
 	margin-top: 1px;
 }
-.icon-paypal {
-	background-image: url('img/paypal.png');
-}
 .icon-bitcoin {
 	background-image: url('img/bitcoin.png');
-}
-.icon-flattr {
-	background-image: url('img/flattr.png');
 }
 
 /**
